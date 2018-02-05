@@ -1,0 +1,6 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/hippojenkins/hst:catalog:
+      jcr:primaryType: hst:catalog
+      /hippojenkins-catalog:
+        jcr:primaryType: hst:containeritempackage

@@ -1,0 +1,7 @@
+group: 
+  name: hippojenkins
+  after: hippo-cms
+project: hippojenkins
+module: 
+  name: hippojenkins-repository-data-development
+  after: hippojenkins-repository-data-application

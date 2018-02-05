@@ -1,0 +1,32 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:translations/hippo:types/hippojenkins:bannerdocument:
+      jcr:primaryType: hipposys:resourcebundles
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        hippojenkins:content: Content
+        hippojenkins:image: Image
+        hippojenkins:link: Link
+        hippojenkins:title: Title
+        jcr:name: Banner
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        hippojenkins:content: Inhoud
+        hippojenkins:image: Afbeelding
+        hippojenkins:link: Link
+        hippojenkins:title: Titel
+        jcr:name: Banner
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        hippojenkins:content: Contenu
+        hippojenkins:image: Image
+        hippojenkins:link: Lien
+        hippojenkins:title: Titre
+        jcr:name: Bannière
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        hippojenkins:content: Inhalt
+        hippojenkins:image: Abbildung
+        hippojenkins:link: Link
+        hippojenkins:title: Titel
+        jcr:name: Banner
