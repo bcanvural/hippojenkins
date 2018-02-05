@@ -15,8 +15,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                sh 'chmod +x ./jenkins/scripts/verify.sh'
-                sh './jenkins/scripts/verify.sh'
+                sh 'bash ./jenkins/scripts/verify.sh'
             }
         }
     }
